@@ -194,6 +194,12 @@ and (orientation: portrait) {
     #eighth {
         width: 375px;
     }
+    #ninth {
+        width: 375px;
+    }
+    #tenth {
+        width: 375px;
+    }
     table, th, td {
         width: 325px;
         margin-left: 25px;
@@ -231,6 +237,12 @@ and (orientation: landscape) {
         width: 600px;
     }
     #eighth {
+        width: 600px;
+    }
+    #ninth {
+        width: 600px;
+    }
+    #tenth {
         width: 600px;
     }
     table, th, td {
