@@ -272,4 +272,8 @@ and (orientation: landscape) {
   padding-top: 15px;
 }
 
-img {float: left; height: auto; width: auto; box-shadow: 10px 10px 5px 5px;}
+#photo {
+  width: 25%;
+  float: left;
+  padding: 5px;
+}
