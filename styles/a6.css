@@ -271,3 +271,5 @@ and (orientation: landscape) {
   position: absolute;
   padding-top: 15px;
 }
+
+img {float: left; height: auto; width: auto; box-shadow: 10px 10px 5px 5px;}
