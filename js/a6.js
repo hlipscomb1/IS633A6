@@ -843,7 +843,7 @@ function onSuccess(contacts)
     var contactinfo = "Contact Names: " + "<br>";
     for(var count=0; count<contacts.length; count++)
     {
-        contactinfo += contacts[count].name.givenName + " " + contacts[count].phoneNumbers.type + " " + contacts[count].phoneNumbers.value + " " + contacts[count].name.familyName + "<br>";
+        contactinfo += contacts[count].name.givenName + " " + contacts[count].name.familyName + "<br>";
     }
     document.getElementById("contactsearchresults").innerHTML = contactinfo;
 }
