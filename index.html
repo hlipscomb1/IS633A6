@@ -152,11 +152,20 @@
     </section>
     <section id="ninth">
         <h2>Contacts</h2>
+        <hr>
+        <h3>Select a Contact</h3>
         <button onclick="SelectContact();">Select a Contact</button>
         <br>
         <br>
-        <label class="inputprompt">Contact Name:</label>
         <label id="contactname"></label>
+        <hr>
+        <h3>Search Contacts</h3>
+        <label class="inputprompt">Last Name:</label>
+        <input type="text" id="contactlastname">
+        <button id="searchcontacts" onclick="SearchContacts();">Search Contacts</button>
+        <br>
+        <br>
+        <label id="contactsearchresults"></label>
         <br>
         <br>
     </section>
