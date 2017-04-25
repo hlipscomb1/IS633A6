@@ -835,10 +835,10 @@ function SearchContacts()
     options.multiple = true;
     options.desiredFields = [navigator.contacts.fieldType.name];
     var fields = [navigator.contacts.fieldType.name];
-    navigator.contacts.find(fields, onSuccess, onError, options);
+    navigator.contacts.find(fields, contactSuccess, contactError, options);
 }
 
-function onSuccess(contacts)
+function contactSuccess(contacts)
 {
     var contactinfo = "Contact Names: " + "<br>";
     for(var count=0; count<contacts.length; count++)
@@ -848,7 +848,7 @@ function onSuccess(contacts)
     document.getElementById("contactsearchresults").innerHTML = contactinfo;
 }
 
-function onError(contactError)
+function contactError(contactError)
 {
     alert('onError!');
 }
